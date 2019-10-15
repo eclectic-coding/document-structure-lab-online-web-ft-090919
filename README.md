@@ -110,7 +110,7 @@ The `<link>` tag is for importing files.
 Most commonly, we'll use `<link>` to import CSS files. Like so:
 
 ```html
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="style.css">
 ```
 
 Linking stylesheets this way allows multi-page websites to share a source of
@@ -121,10 +121,10 @@ might see a series of `<link>` definitions like:
 
 ```html
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="company.css">
-<link rel="stylesheet" type="text/css" href="engineering-department.css">
-<link rel="stylesheet" type="text/css" href="project-x-launch.css">
-<link rel="stylesheet" type="text/css" href="typography.css">
+<link rel="stylesheet" href="company.css">
+<link rel="stylesheet" ref="engineering-department.css">
+<link rel="stylesheet" href="project-x-launch.css">
+<link rel="stylesheet" href="typography.css">
 ```
 
 In this example we're getting some CSS information from the
